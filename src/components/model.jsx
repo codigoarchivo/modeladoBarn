@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { Window } from './window';
 import { Door } from './door';
 import { Barn } from './barn';
-// Barn
+
 const Model = (props) => {
   // Instantiate a exporter
   const group = useRef();
