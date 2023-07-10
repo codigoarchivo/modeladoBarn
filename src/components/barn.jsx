@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Barn = (props) => {
   return (
     <>
@@ -10,17 +8,13 @@ export const Barn = (props) => {
         let colorb = '';
         switch (item[0]) {
           case 'Mesh_2':
+          case 'Mesh_7':
             colorb = props.materials.Wood_Trim.color;
             break;
           case 'Mesh_3':
             colorb = '#c0a26a';
             break;
           case 'Mesh_5':
-            colorb = props.materials.Roofing_Shingles_DesertTan.color;
-            break;
-          case 'Mesh_7':
-            colorb = props.materials.Wood_Trim.color;
-            break;
           case 'Mesh001_2':
             colorb = props.materials.Roofing_Shingles_DesertTan.color;
             break;
